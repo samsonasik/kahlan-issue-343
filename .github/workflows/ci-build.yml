@@ -22,8 +22,6 @@ jobs:
           php-version: "${{ matrix.php-versions }}"
       - name: Checkout
         uses: actions/checkout@v2
-      - name: "Validate composer.json and composer.lock"
-        run: "composer validate"
       - name: "Install dependencies"
         run: "composer install"
       - name: "Run test suite"
