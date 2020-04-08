@@ -2,19 +2,17 @@
 
 namespace App\Spec;
 
-use App\Baz;
 use const Option;
 
-describe('Baz', function () {
+describe('Get Option constant', function () {
 
-    describe('test get constant', function () {
+    it('Get Option constant', function () {
 
-        it('get', function () {
-            $expected = 'Option';
+        $expected = 'Option';
 
-            $actual = Option;
-            expect($actual)->toBe($expected);
-        });
+        $actual = Option;
+        expect($actual)->toBe($expected);
 
     });
+
 });
