@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3079253f1506c01f747f04144f298501",
+    "content-hash": "1ea7929d6f16baebba153604dee39666",
     "packages": [
         {
             "name": "phunkie/phunkie",
@@ -56,16 +56,16 @@
     "packages-dev": [
         {
             "name": "kahlan/kahlan",
-            "version": "4.7.3",
+            "version": "dev-try-re-fix-343",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kahlan/kahlan.git",
-                "reference": "34a4051b3066a5cb008a0c53b665d28a4c94d4b8"
+                "reference": "e1ce8671d8496270881ae83db800fb748ecebeab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kahlan/kahlan/zipball/34a4051b3066a5cb008a0c53b665d28a4c94d4b8",
-                "reference": "34a4051b3066a5cb008a0c53b665d28a4c94d4b8",
+                "url": "https://api.github.com/repos/kahlan/kahlan/zipball/e1ce8671d8496270881ae83db800fb748ecebeab",
+                "reference": "e1ce8671d8496270881ae83db800fb748ecebeab",
                 "shasum": ""
             },
             "require": {
@@ -106,12 +106,14 @@
                 "testing",
                 "unit test"
             ],
-            "time": "2020-04-10T14:12:22+00:00"
+            "time": "2020-04-10T23:55:33+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "kahlan/kahlan": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

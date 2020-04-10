@@ -4,6 +4,6 @@
         "phunkie/phunkie": "^0.11.1"
     },
     "require-dev": {
-        "kahlan/kahlan": "^4.7"
+        "kahlan/kahlan": "dev-try-re-fix-343"
     }
 }
